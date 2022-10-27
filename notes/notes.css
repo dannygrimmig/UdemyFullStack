@@ -1,0 +1,70 @@
+header h1 {
+    padding-left: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight:500;
+    margin-right: -25px;
+    display: inline-block;
+}
+
+.gray {
+    color: rgb(146, 146, 146);
+
+}
+
+/* Viewable Screen*/
+main {
+    padding-left:200px;
+    padding-right:200px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border-radius: 10px;
+}
+main h1 {
+    text-align: center;
+    padding-top: 20px;
+    text-shadow: .07em .07em 0 white, .1em .1em 0 white;
+}
+
+/* Navigation Bar */
+nav ol{
+    display: inline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav ol li{
+    display: inline-block;
+}
+a {
+    text-decoration: none;
+    color: rgb(146, 146, 146);
+}
+
+/* Section's of Notes*/
+
+div{
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* Key Takeaways*/
+.takeaways{
+    background-color: rgb(189, 99, 99);
+    color:rgba(248, 248, 248, 0.89);
+    
+    border: 10px;
+    
+    border-style:solid;
+    border-color:rgb(216, 168, 168);
+    border-radius: 10px;    
+}
+
+/* Footer */
+footer{
+    padding: 50px;
+}
+footer .left{
+    float: left;
+}
+
+footer .right{
+    float: right;
+}
