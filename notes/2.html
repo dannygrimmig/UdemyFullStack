@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang ="en-US">
+    <head>
+        <meta charset="utf-8">
+        <title> Section 2</title>
+        <link rel="stylesheet" href="./notes.css" />
+        <style>
+            main {
+                background-image:url("");
+                background-repeat: repeat;
+                background-attachment: fixed;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Udemy Full Stack</h1>
+            <h1 class="gray">| 2</h1>
+            <nav>
+                <ol>
+                    <li><a href="../index.html">Contents</a></li>
+                </ol>
+            </nav>
+        </header>
+        <main>
+            <h1>How The Internet Works</h1>
+            <div>
+                <h3>Browsing the Web</h3>
+                <p>How do we get to google.com?</p>
+                <ol>
+                    <li>You: type google.com into search bar</li>
+                    <li>Laptop: asks the ISP (internet service provider) to locate google.com</li>
+                    <li>ISP: asks the DNS (which is like an address book of web locations)</li>
+                    <li>DNS: sends IP Address of google.com to ISP, ISP send this to laptop (your laptop has its own IP Address)</li>
+                </ol>
+                <p>Your laptop now has the IP Address to google.com, now what?</p>
+                <ol>
+                    <li>Browser: sends IP Address to Google Servers</li>
+                    <li>Google Servers: responds with HTML/CSS/JavaScript element of google.com</li>
+                </ol>
+                <p>If we type the IP Address of google.com into the search bar, we eliminate the first half of the process.</p>
+                <ol>
+                    <li>Type <code>172.217.7.23</code> into the search bar</li>
+                    <li>Result: google.com will open.</li>
+                </ol>
+            </div>
+            <div>
+                <h3>The Internet Backbone</h3>
+                <p>How do we pass along information accross the network in actuality?</p>
+                <ol>
+                    <li>Your home wifi: connected to an Internet modum somewhere on your home</li>
+                    <li>Your home modum: the modum talks with your ISP (internet service provider</li>
+                    <li>ISP: connects to the internet backbone</li>
+                </ol>
+                <p>What is the Internet Backbone?</p>
+                <ul>
+                    <li><a href="https://www.submarinecablemap.com/" target="_blank">Submarine Cable Map:</a> A connected web of submarine cables that extend accross the globe located at the bottom of the sea floors</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Traceroute</h3>
+                <p>Using the terminal, we can trace the process it takes to say search google.com</p>
+                <ol>
+                    <li>Open the terminal</li>
+                    <li>Enter <code>traceroute google.com</code></li>
+                    <li>Your terminal will display the hops taken by your system to retrieve the IP address of google.com</li>
+                </ol>
+            </div>
+            <div>
+                <h3>Site Performance</h3>
+                <p>These are fundamenals to improving site performance. So how can we optimize site performance?</p>
+                <ol>
+                    <li>Location of the Server</li>
+                    <li>How many trips back and forth between server and site</li>
+                    <li>Size of files affects transfer time from server</li>
+                </ol>
+            </div>
+            <div>
+                <h3>Full Stack Development</h3>
+                <p>Front End</p>
+                <ul>
+                    <li>User facing side of web development (html/css/javascript+react)</li>
+                </ul>
+                <p>Back End</p>
+                <ul>
+                    <li>Server (node.js + express.js) and Databases (sql) behind a site</li>
+                </ul>
+            </div>
+            <div class="takeaways">
+                <h3>Key Takeaways</h3>
+            </div>
+        </main>
+        <footer>
+            <nav>
+                <ol>
+                    <li class="left"><a href="./X.html">Previous Lecture</a></li>
+                    <li class="right"><a href="./X.html">Next Lecture</a></li>
+                </ol>
+            </nav>
+        </footer>
+    </body>
+</html>
