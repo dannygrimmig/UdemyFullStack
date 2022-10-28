@@ -24,6 +24,7 @@ ol {
     grid-template-columns: 1fr 1fr;
     grid-auto-rows: 350px;
     grid-gap: 50px;
+    padding-bottom: 50px;
 }
 a {
     border-style: solid;
@@ -31,14 +32,21 @@ a {
     border-radius: 10px;
     border-color: lightblue;
     transition: all .3s ease-in-out;
+    text-decoration: none;
 }
+a li{
+    text-align: center;
+    padding-top: 355px;
+    color: rgb(146, 146, 146);
+}
+
 a:hover{
     transform: scale(0.95);
 }
 
 /* Website Background Images */
-.template{
-    background: url(./media/craftsmen_img.png);
+.two{
+    background: url("https://www.internetsociety.org/wp-content/uploads/2022/04/Internet-of-Things-IoT-1280px.jpg");
     background-size: cover;
 }
 
