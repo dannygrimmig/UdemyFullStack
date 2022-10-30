@@ -47,7 +47,15 @@ a:hover{
 /* Website Background Images */
 .two{
     background: url("https://www.internetsociety.org/wp-content/uploads/2022/04/Internet-of-Things-IoT-1280px.jpg");
-    background-size: cover;
+    background-size: contain;
+}
+.three{
+    background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/WWW_logo_by_Robert_Cailliau.svg/1200px-WWW_logo_by_Robert_Cailliau.svg.png");
+    background-size: contain;
+}
+.five{
+    background: url("https://play-lh.googleusercontent.com/85WnuKkqDY4gf6tndeL4_Ng5vgRk7PTfmpI4vHMIosyq6XQ7ZGDXNtYG2s0b09kJMw");
+    background-size: contain;
 }
 
 
