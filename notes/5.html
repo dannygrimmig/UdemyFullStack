@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang ="en-US">
+    <head>
+        <meta charset="utf-8">
+        <title> Section 5 </title>
+        <link rel="stylesheet" href="./notes.css" />
+        <style>
+            main {
+                background-image:url("");
+                background-repeat: repeat;
+                background-attachment: fixed;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Udemy Full Stack</h1>
+            <h1 class="gray">| 5</h1>
+            <nav>
+                <ol>
+                    <li><a href="../index.html">Contents</a></li>
+                </ol>
+            </nav>
+        </header>
+        <main>
+            <h1>Advanced HTML 5</h1>
+            <div>
+                <h3>HTML Forms</h3>
+                <p>Forms are wrapped in the tag: <code>&ltform&gt <em>insert form here</em> &lt/form&gt</code></p>
+
+                <p>
+                    Example:<pre><code>
+    &ltform&gt
+        First Name: &ltinput type="text" name="firstname"&gt
+    &lt/form&gt
+                </code></pre></p>
+                <p><form>
+                    First Name: <input type="text" name="firstname">
+                </form></p>
+            </div>
+            <div>
+                <h3>Input Types</h3>
+                <p>There are different input types for specific for items</p>
+                <ul>
+                    <li><code>&ltinput type="text"&gt</code> : input of type text</li>
+                    <li><code>&ltinput type="email"&gt</code> : email formating</li>
+                    <li><code>&ltinput type="password"&gt</code> : characters appear as ***</li>
+                    <li><code>&ltinput type="date"&gt</code> : displays a calander to select dates</li>
+                    <li><code>&ltinput type="radio"&gt</code> : selector button (multiple radios must be named the same but given different values)</li>
+                    <li><code>&ltinput type="checkbox"&gt</code> : checkboxes (multiple checkboxes must be named the same but given different values)</li>
+                    <li><code>&ltinput type="reset"&gt</code> : button to clear all filled out fields</li>
+                    <li><code>&ltinput type="submit" value="Register"&gt</code> : button to submit form</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Input Names</h3>
+                <p>It is inportant to add names to each input item in the form! This way when submitted
+                    the answers can be stored/used.
+                </p>
+                <p>
+                    Example:<pre><code>
+    &ltform&gt
+        First Name: &ltinput type="text" name="firstname"&gt
+        Email: &ltinput type="email" name="email"&gt
+        Password: &ltinput type="password" name="password"&gt
+        Today's Date: &ltinput type="date" name="date"&gt
+        Button: &ltinput type="radio" name="button" value="one" &gt &ltinput type="radio" name="button" value="two" &gt
+        CheckBox: &ltinput type="checkbox" name="checkbox" value="two" &gt &ltinput type="checkbox" name="checkbox" value="two" &gt
+        &ltinput type="submit"&gt
+        &ltinput type="reset"&gt
+    &lt/form&gt
+                </code></pre></p>
+                <form action="">
+                    First Name: <input type="text" name="firstname"><br>
+                    Email: <input type="email" name="email"><br>
+                    Password: <input type="password" name="password"><br>
+                    Today's Date: <input type="date" name="date"><br>
+                    Button: <input type="radio" name="button"><input type="radio" name="button"><br>
+                    CheckBox: <input type="checkbox" name="checkbox"><input type="checkbox" name="checkbox"><br>
+                    <input type="submit"><br>
+                        <input type="reset"><br>
+                </form>
+            </div>
+            <div>
+                <h3>Usefull Fields</h3>
+                <p>There are many handy fields to include in inputs to indicate how responses should look</p>
+                <ul>
+                    <li><code>required</code>: ensures you may not submit form until section is complete</li>
+                    <li><code>min="5"</code>: the minimum length must be at least 5 characters long</li>
+                    <li>etc...</li>
+                </ul>
+            </div>
+
+            <div class="takeaways">
+                <h3>Key Takeaways</h3>
+                <p>Useful Resources: </p>
+                <ul>
+                    <li><a href="https://www.w3schools.com/html/html_forms.asp" target="_blank">W3Schools <em>HTML Forms</em></a></li>
+                    <li><a href="https://www.w3schools.com/tags/tag_input.asp" target="_blank">W3Schools <em>HTML Input Tags</em></a></li>
+                    <li><a href="https://www.w3schools.com/tags/att_form_action.asp" target="_blank">W3Schools <em>HTML Form Actions</em></a></li>
+                </ul>
+            </div>
+        </main>
+        <footer>
+            <nav>
+                <ol>
+                    <li class="left"><a href="./3.html">Previous Lecture</a></li>
+                    <li class="right"><a href="./X.html">Next Lecture</a></li>
+                </ol>
+            </nav>
+        </footer>
+    </body>
+</html>
