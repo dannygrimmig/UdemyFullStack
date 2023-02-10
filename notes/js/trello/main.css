@@ -1,0 +1,64 @@
+body{
+    font-family:'Courier New', Courier, monospace;
+    padding: 20px;
+}
+main .posts{
+    background-color: lightskyblue;
+    border-radius: 25px;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 300px);
+    grid-template-rows: auto;
+    gap: 20px;
+}
+div{
+    background-color: navy;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    border-radius: 25px;
+    border-style: solid;
+    border-color: navy;
+
+    transition: ease-in-out .25s;
+}
+.inner{
+    background-color: aliceblue;
+    width: 100%;
+    height: 100%;
+}
+.inner:hover{
+    transform:translate(-5px, -5px);
+    width: 100%;
+}
+
+.inner ul{
+    width: 265px;
+    padding: 10px;
+    list-style: none;
+    align-self: flex-start;
+}
+.inner ul li{
+    background-color: steelblue;
+    color: white;
+
+    width: 100%;
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.addItem{
+    display: flex;
+    justify-content: space-between;
+}
+input{
+    border-radius: 5px;
+    border-color:transparent;
+}
+button{
+    margin-right: 10px;
+}
